@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-. ./build.sh
+. ./dev.sh
  
 mkdir -p isoroot
 mkdir -p isoroot/boot
