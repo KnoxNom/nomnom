@@ -11,6 +11,8 @@ extern "C" {
 
 int printf(const char* __restrict, ...);
 int putchar(int);
+// TODO: Get user input.
+// int scanf(const char* format, ...);
 int puts(const char*);
 
 #ifdef __cplusplus
