@@ -1,11 +1,11 @@
 #!/bin/sh
 set -e
 . ./dev.sh
- 
+
 mkdir -p isoroot
 mkdir -p isoroot/boot
 mkdir -p isoroot/boot/grub
- 
+
 cp sysroot/boot/nomnom.kernel isoroot/boot/nomnom.kernel
 cat > isoroot/boot/grub/grub.cfg << EOF
 menuentry "nomnom" {
